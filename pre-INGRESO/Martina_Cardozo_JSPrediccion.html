@@ -1,0 +1,43 @@
+///Que indicaria console.log cuando se llame a esta funcion?
+
+function miEdad() {
+
+   console.log("Tengo: " + 25 + " años");
+
+}
+
+//RESPUESTA: El console.log indicaria que la edad es 25 años
+// Tengo: 25 años
+
+//si necesitáramos enviar una edad hacia la función, le diríamos a la función «hey, aquí tienes una variable llamada edad». Lo hacemos agregando el nombre de la variable entre paréntesis. 
+
+Entonces, si enviamos como variable edad el número 25 (var edad = 25), y se llama a esta función, ¿qué indicará console.log?
+
+function miEdad(edad) {
+
+    console.log("Tengo: " + edad + " años");
+ 
+ }
+
+ //RESPUESTA: Indicaria la edad que le brindamos por la variable edad.
+//Tengo: 25 años
+
+// Predicción 3: Vamos una vez más. Si var primerNumero = 50 y var segundoNumero = 27, ¿qué indicará console.log?
+
+function restar(primerNumero, segundoNumero) {
+
+    console.log("¡Restemos los números!");
+ 
+    console.log("primerNumero es:" + primerNumero);
+ 
+    console.log("segundoNumero es:" + segundoNumero);
+ 
+    var resultado = primerNumero - segundoNumero;
+ 
+    console.log(resultado);
+ 
+ }
+ //RESPUESTA: ¡Restemos los numeros!
+ // primernumero es: 50
+ //segundoNumero es: 27
+ //resultado sera 23

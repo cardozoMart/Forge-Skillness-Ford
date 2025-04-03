@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+/* Navegadol */
+.nav-bar{
+    display: flex;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+}
+.nav-bar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 27px;
+    width: 100%;
+}
+
+.nav-bar-items li{
+    margin: 20px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.nav-bar-items li a:visited{
+    color:white;
+}
+
+.navbar-btn{
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px;
+    border-radius: 9%;
+    margin: -10px;
+    font-weight: bold;
+}
+
+.navbar-logo{
+    margin: 40px;
+}
+
+/*Contenedor de Solicitudes de conexiones*/
+.content-prim{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+.content-user{
+    display: flex;
+flex-direction: column;
+    width: 30%;
+    margin-right: 40px;
+    padding: 18px;
+    background-color: #fefefe;
+    color: #fefefe;
+    height: 160px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+}
+
+.content-user span{
+    color: black;
+    font-size: 18px;
+}
+
+.content-user img{
+    margin: 15px;
+    margin-bottom: -8px;
+    border-radius: 5px;
+    border: 3px solid  #00bcd4;
+    width: 35px;
+}
+.content-user h2{
+color: #0c0c0c;
+margin-bottom: 14px;
+}
+
+.icon-cross, .icon-check {
+    color: #ff6fb8;
+    margin-left: 40px;
+    border-radius: 50%;
+    padding: 4px;
+    padding-left: 7px;
+    padding-right: 6px;
+    border: 2px solid #ff6fb8;
+}
+
+.icon-cross, .icon-check, a:visited{
+color: #ff6fb8;
+}
+
+/*CONTENEDOR DE PERFIL*/
+.content-first {
+    background-color: #00bcd4;
+    padding-top: 150px;
+    border-radius: 5px;
+}
+
+.content-perfil {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+    position: relative; 
+}
+
+.content-img {
+    position: absolute; 
+    top: -90px;
+    left: 10px; 
+}
+
+.content-img img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.content-perfil h2 {
+    margin-top: 60px; 
+    font-size: 30px;
+    width: 100%;
+}
+
+.content-org{
+    
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.content-info{
+    margin-top: 15px;
+}
+
+.content-perfil button{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(254, 252, 252);
+    color: #00bcd4;
+    margin-top: 20px;
+}
+.content-conf img{
+    width: 15px;
+}
+
+/* "CONTENEDOR DE "TUS CONEXIONES" Y "EDUCACION" */
+
+.content-seg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-conex{
+    margin-top: -230px;
+    margin-right: 50px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    width: 484px;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content-conex h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content-conex li{
+    color: #fefefe;
+    margin: 20px;
+}
+.content-conex img{
+border-radius: 50%;
+border: 2px solid black;
+height: 32px;
+margin-bottom: -10px;
+}
+
+.content-conex li a:visited{
+    color: #0c0c0c;
+}
+
+.content-conex li a{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/*Contenedor Education*/
+
+.content-edu{
+    margin: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3%;
+    padding: 20px;
+    width: 57%;
+}
+
+.content-edu h2{
+    margin-bottom: 10px;
+    color: #443e36;
+}
